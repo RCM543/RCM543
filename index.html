@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ramchandra Limba – Python Developer, Software Tester & Backend Engineer based in Gujarat, India." />
+  <meta name="keywords" content="Ramchandra Limba, Ram Limba, ramchandra2002, ram1528, Python Developer India, Backend Developer Gujarat, Software Tester India, Full Stack Developer Vadodara" />
+  <title>Ramchandra Limba | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a class="nav-brand" href="#hero">RL<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Ramchandra <span class="accent">Limba</span></h1>
+      <p class="hero-roles">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Gujarat, India &nbsp;·&nbsp; Open to Remote &amp; Hybrid Roles</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://linkedin.com/in/ram1528" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/ram1528" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:limbaramchandra2002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-initials">RL</div>
+          </div>
+          <div class="about-badge"><i class="fas fa-graduation-cap"></i> CGPA 8.69</div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm a <strong>final-year B.Tech Computer Science student</strong> at Parul University, Vadodara, Gujarat.
+            I'm a detail-oriented developer and tester passionate about building reliable, scalable software systems.
+          </p>
+          <p>
+            My core strengths lie in <strong>Python backend development</strong>, <strong>manual &amp; API testing</strong>,
+            and <strong>database-driven applications</strong>. I thrive at the intersection of quality engineering and software development.
+          </p>
+          <ul class="about-list">
+            <li><i class="fas fa-university"></i> B.Tech CSE @ Parul University (2022–2026)</li>
+            <li><i class="fas fa-code"></i> Strong in Python — scripting, automation, ML pipelines</li>
+            <li><i class="fas fa-bug"></i> Hands-on in Manual Testing, API Validation, Bug Reporting</li>
+            <li><i class="fas fa-layer-group"></i> Full-stack capable: MERN Stack</li>
+            <li><i class="fas fa-robot"></i> Built a Facial Expression Recognition System with ~90% accuracy</li>
+          </ul>
+          <div class="about-langs">
+            <span>🇬🇧 English</span>
+            <span>🇮🇳 Hindi</span>
+            <span>🇮🇳 Gujarati</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-laptop-code"></i> Programming Languages</div>
+          <div class="skill-tags">
+            <span class="tag tag-python">Python</span>
+            <span class="tag tag-js">JavaScript</span>
+            <span class="tag tag-java">Java</span>
+            <span class="tag">C</span>
+            <span class="tag tag-sql">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-flask"></i> Testing &amp; QA</div>
+          <div class="skill-tags">
+            <span class="tag tag-green">Manual Testing</span>
+            <span class="tag tag-postman">API Testing</span>
+            <span class="tag tag-red">Bug Reporting</span>
+            <span class="tag tag-green">Regression Testing</span>
+            <span class="tag tag-green">Test Case Design</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-globe"></i> Web &amp; Backend</div>
+          <div class="skill-tags">
+            <span class="tag tag-node">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag tag-react">React</span>
+            <span class="tag tag-html">HTML5</span>
+            <span class="tag tag-css">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-database"></i> Databases</div>
+          <div class="skill-tags">
+            <span class="tag tag-mongo">MongoDB</span>
+            <span class="tag tag-sql">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-brain"></i> AI / ML</div>
+          <div class="skill-tags">
+            <span class="tag tag-tf">TensorFlow</span>
+            <span class="tag tag-keras">Keras</span>
+            <span class="tag tag-cv">OpenCV</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header"><i class="fas fa-tools"></i> Tools &amp; DevOps</div>
+          <div class="skill-tags">
+            <span class="tag tag-git">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag tag-postman">Postman</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cs-concepts">
+        <h3 class="concepts-title">Core CS Concepts</h3>
+        <div class="concepts-grid">
+          <div class="concept"><i class="fas fa-check-circle"></i> Data Structures &amp; Algorithms</div>
+          <div class="concept"><i class="fas fa-check-circle"></i> Operating Systems</div>
+          <div class="concept"><i class="fas fa-check-circle"></i> Computer Networks</div>
+          <div class="concept"><i class="fas fa-check-circle"></i> Software Engineering</div>
+          <div class="concept"><i class="fas fa-check-circle"></i> Database Management Systems</div>
+          <div class="concept"><i class="fas fa-check-circle"></i> Object-Oriented Programming</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">🎭</div>
+          <h3 class="project-title">Facial Expression Recognition System</h3>
+          <p class="project-desc">
+            A real-time emotion detection system that classifies <strong>7 emotions with ~90% accuracy</strong>.
+          </p>
+          <ul class="project-highlights">
+            <li>🧠 Trained CNN on <strong>10,000+ facial images</strong></li>
+            <li>🧪 Validated through <strong>20+ edge case</strong> tests</li>
+            <li>🐛 Debugged preprocessing pipeline and model performance</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag tag-python">Python</span>
+            <span class="tag tag-cv">OpenCV</span>
+            <span class="tag tag-tf">TensorFlow</span>
+            <span class="tag tag-keras">Keras</span>
+            <span class="tag">CNN</span>
+          </div>
+          <a href="https://github.com/ram1528" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎓</div>
+          <h3 class="project-title">Alumni Association Platform</h3>
+          <p class="project-desc">
+            Scalable backend platform supporting <strong>500+ user profiles and event records</strong>.
+          </p>
+          <ul class="project-highlights">
+            <li>🔐 Implemented <strong>JWT-based authentication</strong></li>
+            <li>✅ Manual API testing on <strong>30+ endpoints</strong></li>
+            <li>🐛 Identified and fixed <strong>15+ backend bugs</strong></li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag tag-node">Node.js</span>
+            <span class="tag">Express.js</span>
+            <span class="tag tag-mongo">MongoDB</span>
+            <span class="tag tag-react">React</span>
+            <span class="tag">JWT</span>
+          </div>
+          <a href="https://github.com/ram1528" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎮</div>
+          <h3 class="project-title">Gaming Community Web Application</h3>
+          <p class="project-desc">
+            Full-stack gaming hub for <strong>300+ users</strong> with authentication, profiles, and game stats.
+          </p>
+          <ul class="project-highlights">
+            <li>🔧 Built backend APIs with <strong>CRUD across 5+ MongoDB collections</strong></li>
+            <li>🧪 Tested frontend-backend integration for data consistency</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tag tag-mongo">MongoDB</span>
+            <span class="tag">Express.js</span>
+            <span class="tag tag-react">React</span>
+            <span class="tag tag-node">Node.js</span>
+          </div>
+          <a href="https://github.com/ram1528" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">Certifications</span></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+          <div class="cert-body">
+            <h3>Computer Networks &amp; Internet Protocols</h3>
+            <p class="cert-provider"><i class="fas fa-university"></i> NPTEL</p>
+            <p class="cert-period"><i class="fas fa-calendar-alt"></i> Jan – Apr 2024</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-calculator"></i></div>
+          <div class="cert-body">
+            <h3>Theory of Computation</h3>
+            <p class="cert-provider"><i class="fas fa-university"></i> NPTEL</p>
+            <p class="cert-period"><i class="fas fa-calendar-alt"></i> Jul – Sep 2024</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="cert-body">
+            <h3>Software Engineering Virtual Job Simulation</h3>
+            <p class="cert-provider"><i class="fas fa-building"></i> Hewlett Packard Enterprise (Forage)</p>
+            <p class="cert-period"><i class="fas fa-calendar-alt"></i> Nov 2024 – Feb 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+      <p class="contact-intro">I'm currently open to new opportunities. Feel free to reach out!</p>
+      <div class="contact-cards">
+
+        <a href="mailto:limbaramchandra2002@gmail.com" class="contact-card">
+          <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <p class="contact-card-label">Email</p>
+            <p class="contact-card-value">limbaramchandra2002@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="https://linkedin.com/in/ram1528" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div>
+            <p class="contact-card-label">LinkedIn</p>
+            <p class="contact-card-value">linkedin.com/in/ram1528</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/ram1528" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+          <div>
+            <p class="contact-card-label">GitHub</p>
+            <p class="contact-card-value">github.com/ram1528</p>
+          </div>
+        </a>
+
+        <a href="tel:+918824186876" class="contact-card">
+          <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+          <div>
+            <p class="contact-card-label">Phone</p>
+            <p class="contact-card-value">+91 8824186876</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Designed &amp; Built by <strong>Ramchandra Limba</strong>
+        &nbsp;·&nbsp;
+        <a href="https://github.com/ram1528" target="_blank" rel="noopener"><i class="fab fa-github"></i> ram1528</a>
+      </p>
+      <p class="footer-quote"><em>"Detail-oriented by nature. Quality-driven by choice."</em></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
