@@ -53,7 +53,7 @@ function applyTheme(dark) {
     : '<i class="fas fa-moon"></i>';
 }
 
-// Initialise from localStorage or OS preference
+// Initialize from localStorage or OS preference
 const saved = localStorage.getItem('theme');
 applyTheme(saved ? saved === 'dark' : true); // default dark
 
